@@ -1,0 +1,70 @@
+.cancha-tenis {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #6ab150;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.linea-central, .linea-lateral, .linea-servicio, .linea-fondo, .linea-dobles {
+    position: absolute;
+    background-color: #fff;
+}
+.linea-central {
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    transform: translateX(-50%);
+}
+.linea-lateral {
+    top: 0;
+    width: 2px;
+    height: 100%;
+}
+.linea-lateral.left {
+    left: 0;
+}
+.linea-lateral.right {
+    right: 0;
+}
+.linea-servicio {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    transform: translateY(-50%);
+}
+.linea-fondo {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+}
+.linea-dobles {
+    top: 25%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+}
+.jugador {
+    position: absolute;
+    width: 100px;
+    text-align: center;
+    color: #fff;
+}
+.jugador1 {
+    top: 25%;
+    left: 20px;
+}
+.jugador2 {
+    top: 25%;
+    right: 20px;
+}
+.table-custom {
+    width: auto;
+    margin: 0 auto;
+}

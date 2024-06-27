@@ -1,0 +1,29 @@
+body {
+    background: url('../img/fond.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    color: white;
+}
+.container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+h1, h4 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+.alert {
+    margin-top: 20px;
+}
+.btn-primary {
+    background-color: #28a745;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #218838;
+}
+#countdown {
+    font-size: 24px;
+    font-weight: bold;
+}
