@@ -208,14 +208,14 @@ if (isset($_POST['logout'])) {
                 <div class="col-md-6">
                     <h5>Tu información:</h5>
                     <p><strong>Nombre:</strong> <?php echo htmlspecialchars($_SESSION['nombre'], ENT_QUOTES, 'UTF-8'); ?></p>
-                    <p><strong>Fecha:</strong> <?php echo htmlspecialchars($fecha_usuario, ENT_QUOTES, 'UTF-8'); ?></p>
+                    <!-- <p><strong>Fecha:</strong> <?php echo htmlspecialchars($fecha_usuario, ENT_QUOTES, 'UTF-8'); ?></p> -->
                     <p><strong>Torneo:</strong> <?php echo htmlspecialchars($torneo_usuario, ENT_QUOTES, 'UTF-8'); ?></p>
                     <p><strong>Resultado:</strong> <?php echo htmlspecialchars($resultado_usuario, ENT_QUOTES, 'UTF-8'); ?></p>
                 </div>
                 <div class="col-md-6">
                     <h5>Información del Rival:</h5>
                     <p><strong>Nombre:</strong> <?php echo htmlspecialchars($rival_nombre, ENT_QUOTES, 'UTF-8'); ?></p>
-                    <p><strong>Fecha:</strong> <?php echo htmlspecialchars($rival_fecha, ENT_QUOTES, 'UTF-8'); ?></p>
+                    <!-- <p><strong>Fecha:</strong> <?php echo htmlspecialchars($rival_fecha, ENT_QUOTES, 'UTF-8'); ?></p> -->
                     <p><strong>Torneo:</strong> <?php echo htmlspecialchars($rival_torneo, ENT_QUOTES, 'UTF-8'); ?></p>
                     <p><strong>Resultado:</strong> <?php echo htmlspecialchars($rival_resultado, ENT_QUOTES, 'UTF-8'); ?></p>
                 </div>

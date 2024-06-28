@@ -41,6 +41,17 @@ $_SESSION['tipo'] = $fila['id_rol'];
         </div>
     </div>
 
+
+    <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Crear torneos adicionales</h5>
+                <p class="card-text">Haga clic en el botón para crear un nuevo torneo.</p>
+                <a href="create.php" class="btn btn-primary">Crear Torneo</a>
+            </div>
+        </div>
+    </div>
+
+
     <div class="card">
             <div class="card-body">
                 <h5 class="card-title">Crear enfrentamientos</h5>
